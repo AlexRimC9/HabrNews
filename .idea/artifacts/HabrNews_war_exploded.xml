@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HabrNews:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HabrNews_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HabrNews/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HabrNews" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

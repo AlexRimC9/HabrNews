@@ -1,0 +1,2 @@
+-- insert into Bober (id_user,login,first_name,second_name,password,age,roles)
+--     value(1,'Bober','Alexandr','Bobrov','Bober',23,'ROLE_ADMIN')

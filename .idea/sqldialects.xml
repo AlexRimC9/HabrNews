@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/project/repository/OldPasswordRepository.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/project/repository/UserRepository.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__CREATE_TABLE.sql" dialect="PostgreSQL" />
+  </component>
+</project>
