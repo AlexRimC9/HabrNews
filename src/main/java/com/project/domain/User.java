@@ -1,10 +1,7 @@
 package com.project.domain;
 
-import com.project.helper.Indices;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Setting;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -14,8 +11,6 @@ import java.util.Set;
 
 @Getter
 @Setter
-@Document(indexName = Indices.USER_INDEX)
-@Setting(settingPath = "static/es-settings.json")
 @Table(name = "users")
 @Entity
 public class User implements UserDetails {

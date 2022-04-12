@@ -1,12 +1,12 @@
 package com.project.repository;
 
 import com.project.domain.User;
-import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface UserRepository extends ElasticsearchRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
     User findByLogin(String login);
     User findByIdUser(Long id);
